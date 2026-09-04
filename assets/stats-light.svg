@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="126K lines of code, 300+ automated tests, 37 database migrations, 100 UI pages, 11 integrations, 1 engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="50 releases in six months, 800+ members, 17 product areas, 20 countries, 11 partner integrations, 1 person">
   <style>
     .f { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .n { font-size: 48px; font-weight: 700; letter-spacing: -2px; fill: #1d1d1f; }
@@ -16,11 +16,11 @@
     <line x1="1000.5" y1="34" x2="1000.5" y2="134"/>
   </g>
   <g class="f" text-anchor="middle">
-    <text x="100" y="88" class="n">126K</text><text x="100" y="120" class="l">lines of code</text>
-    <text x="300" y="88" class="n">300+</text><text x="300" y="120" class="l">automated tests</text>
-    <text x="500" y="88" class="n">37</text><text x="500" y="120" class="l">database migrations</text>
-    <text x="700" y="88" class="n">100</text><text x="700" y="120" class="l">UI pages shipped</text>
-    <text x="900" y="88" class="n">11</text><text x="900" y="120" class="l">third-party integrations</text>
-    <text x="1100" y="88" class="n a">1</text><text x="1100" y="120" class="l">engineer</text>
+    <text x="100" y="88" class="n">50</text><text x="100" y="120" class="l">releases in six months</text>
+    <text x="300" y="88" class="n">800+</text><text x="300" y="120" class="l">members on the platform</text>
+    <text x="500" y="88" class="n">17</text><text x="500" y="120" class="l">product areas delivered</text>
+    <text x="700" y="88" class="n">20</text><text x="700" y="120" class="l">countries served</text>
+    <text x="900" y="88" class="n">11</text><text x="900" y="120" class="l">partner integrations</text>
+    <text x="1100" y="88" class="n a">1</text><text x="1100" y="120" class="l">person, end to end</text>
   </g>
 </svg>

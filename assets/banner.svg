@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Howie Wang &#8212; One engineer. The whole system.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Howie Wang &#8212; From first conversation to live product.">
   <style>
     .f { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .eyebrow { font-size: 14px; font-weight: 600; letter-spacing: 2.4px; fill: #86868b; }
-    .h1 { font-size: 92px; font-weight: 700; letter-spacing: -3.2px; fill: #f5f5f7; }
+    .h1 { font-size: 84px; font-weight: 700; letter-spacing: -3px; fill: #f5f5f7; }
     .h1b { fill: #86868b; }
     .sub { font-size: 20px; font-weight: 400; letter-spacing: -0.2px; fill: #a1a1a6; }
   </style>
   <rect width="1200" height="340" rx="28" fill="#000000"/>
-  <text x="72" y="82" class="f eyebrow">FULL-STACK ENGINEER  &#183;  CANBERRA, AUSTRALIA</text>
-  <text x="68" y="176" class="f h1">One engineer.</text>
-  <text x="68" y="266" class="f h1 h1b">The whole system.</text>
-  <text x="72" y="310" class="f sub">Node.js  &#183;  PostgreSQL  &#183;  WeChat Mini Programs  &#183;  Alibaba Cloud</text>
+  <text x="72" y="82" class="f eyebrow">PRODUCT-MINDED TECHNOLOGIST  &#183;  CANBERRA, AUSTRALIA</text>
+  <text x="68" y="172" class="f h1">From first conversation</text>
+  <text x="68" y="258" class="f h1 h1b">to live product.</text>
+  <text x="72" y="310" class="f sub">Discovery  &#183;  Scoping  &#183;  Build &amp; integration  &#183;  Launch  &#183;  Operations  &#8212;  end to end, one person</text>
 </svg>
