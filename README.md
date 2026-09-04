@@ -12,7 +12,7 @@
 
 <br>
 
-I sit between the people who run a business and the systems that run it: understanding the need, choosing and integrating the right tools, getting them live, and making sure the people using them succeed. For the past year I have been the single point of contact between a biotech company's owner and the platform that runs the business — eleven partner systems, 50 releases, 800+ members — from the first conversation to day-to-day support.
+I sit between the people who run a business and the systems that run it: understanding the need, choosing and integrating the right tools, getting them live, and making sure the people using them succeed. Alongside a Master of IT at UNSW (graduating December 2026), I have spent the past year as the single point of contact between a biotech company's owner and the platform that runs the business — eleven partner systems, 50 releases, 800+ members — from the first conversation to day-to-day support.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
@@ -67,4 +67,4 @@ I built all of the above myself, so I can talk to a customer's engineers as a pe
 
 <br>
 
-<p align="center"><sub>Open to junior solutions engineering, implementation and technical consulting roles &nbsp;·&nbsp; Canberra · Sydney · remote &nbsp;·&nbsp; English / 中文</sub></p>
+<p align="center"><sub>Master of IT, UNSW — graduating December 2026 &nbsp;·&nbsp; Open to junior solutions engineering, implementation and technical consulting roles &nbsp;·&nbsp; Canberra · Sydney · remote &nbsp;·&nbsp; English / 中文</sub></p>
