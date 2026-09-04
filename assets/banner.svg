@@ -8,8 +8,8 @@
     .sub { font-size: 20px; font-weight: 400; letter-spacing: -0.2px; fill: #a1a1a6; }
   </style>
   <rect width="1200" height="340" rx="28" fill="#000000"/>
-  <text x="72" y="82" class="f eyebrow">PRODUCT-MINDED TECHNOLOGIST  &#183;  CANBERRA, AUSTRALIA</text>
+  <text x="72" y="82" class="f eyebrow">SOLUTIONS ENGINEERING &amp; IMPLEMENTATION  &#183;  CANBERRA, AUSTRALIA</text>
   <text x="68" y="172" class="f h1">From first conversation</text>
   <text x="68" y="258" class="f h1 h1b">to live product.</text>
-  <text x="72" y="310" class="f sub">Discovery  &#183;  Scoping  &#183;  Build &amp; integration  &#183;  Launch  &#183;  Operations  &#8212;  end to end, one person</text>
+  <text x="72" y="310" class="f sub">Discovery  &#183;  Integration  &#183;  Go-live  &#183;  Training  &#183;  Support  &#8212;  end to end, one person</text>
 </svg>
