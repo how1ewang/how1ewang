@@ -16,7 +16,7 @@ I sit between the people who run a business and the systems that run it: underst
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img alt="50 releases in six months · 800+ members · 17 product areas · 20 countries · 11 partner integrations · 1 person" src="assets/stats-light.svg" width="100%">
+  <img alt="67 releases · 900+ members · 17 product areas · 20 countries · 11 partner integrations · 1 person" src="assets/stats-light.svg" width="100%">
 </picture>
 
 ## Case study
@@ -26,9 +26,9 @@ I sit between the people who run a business and the systems that run it: underst
 A biotech company sells health products through a dealer network and directly to consumers on WeChat. It ran on disconnected tools: no single view of members, dealers, orders or commissions, and every marketing change needed outside help.
 
 - **Discovery & scope** — mapped how members, dealers, orders and money actually moved, then shaped that into 17 product areas with a phased plan: storefront first, loyalty and dealer tools next, content and training after.
-- **Implementation & integration** — a WeChat Mini Program storefront (58 screens), a staff console (42 screens), the platform behind them, and a stand-alone registration tool; 11 partner systems integrated for payments, sign-in, ERP fulfilment, cloud media and notifications — including request signing implemented by hand where no SDK existed.
+- **Implementation & integration** — a WeChat Mini Program storefront (60 screens), a staff console (100+ screens), the platform behind them, and a stand-alone registration tool; 11 partner systems integrated for payments, sign-in, ERP fulfilment, cloud media and notifications — including request signing implemented by hand where no SDK existed.
 - **Go-live** — WeChat platform compliance, entity-change filing, food-seller registration paperwork, domain and HTTPS, a launch-readiness checklist, a zero-downtime data migration.
-- **Training & support** — an illustrated operations guide so staff run day-to-day changes without a developer; structured feedback rounds turned into 50 releases in six months; on call when something broke.
+- **Training & support** — an illustrated operations guide so staff run day-to-day changes without a developer; four role-based staff manuals; structured feedback rounds turned into 67 releases; on call when something broke.
 - **Decisions that mattered** — a drag-and-drop page builder so marketing never waits for a developer; commission rules as console settings rather than code; automatic refunds for payments that arrive after cancellation.
 
 The source is private (client code). The full case study, with the decisions and their outcomes, is on [the site →](https://how1ewang.github.io/#work)
