@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="50 releases in six months, 800+ members, 17 product areas, 20 countries, 11 partner integrations, 1 person">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="67 releases, 900+ members, 17 product areas, 20 countries, 11 partner integrations, 1 person and AI agents">
   <style>
     .f { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .n { font-size: 48px; font-weight: 700; letter-spacing: -2px; fill: #1d1d1f; }
@@ -21,6 +21,6 @@
     <text x="500" y="88" class="n">17</text><text x="500" y="120" class="l">product areas delivered</text>
     <text x="700" y="88" class="n">20</text><text x="700" y="120" class="l">countries served</text>
     <text x="900" y="88" class="n">11</text><text x="900" y="120" class="l">partner integrations</text>
-    <text x="1100" y="88" class="n a">1</text><text x="1100" y="120" class="l">person, end to end</text>
+    <text x="1100" y="88" class="n a">1</text><text x="1100" y="120" class="l">person + AI agents</text>
   </g>
 </svg>
