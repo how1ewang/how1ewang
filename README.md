@@ -12,19 +12,19 @@
 
 <br>
 
-I take a business from first conversation to live product on my own, with AI agents doing the build. Alongside a Master of IT at UNSW (graduating December 2026), I spent the past year as the only person on a biotech company's commerce platform — discovery, every screen and integration, the servers, the filings, the staff manuals and day-to-day support — with Cursor and then Claude Code writing the code under my direction: eleven partner systems, 67 releases, 900+ members.
+I take a business from first conversation to live product on my own, with AI agents doing the build. Alongside a Master of IT at UNSW (graduating December 2026), I spent the past year as the only person on a biotech company's commerce platform — discovery, every screen and integration, the servers, the filings, the staff manuals and day-to-day support — with Cursor and then Claude Code writing the code under my direction: eleven partner systems, 69 app versions, 900+ members.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img alt="67 releases · 900+ members · 17 product areas · 20 countries · 11 partner integrations · 1 person and AI agents" src="assets/stats-light.svg" width="100%">
+  <img alt="69 app versions · 900+ members · 17 product areas · 20 countries · 11 partner integrations · 1 person and AI agents" src="assets/stats-light.svg" width="100%">
 </picture>
 
 ## How I build — one person, a team of AI agents
 
 - **AI agents are the build team.** Cursor from the first commit, Claude Code since October 2026 — often several sessions at once: a server upgrade, a credential rotation and a media migration ran in the same week.
-- **I own the what and the why.** The owner's goals become written specs and acceptance checks; a prompt template, Cursor rules, an AGENTS.md and persistent agent memory give every session the same context.
-- **Verify, don't trust.** 760+ automated tests, scripted audits of every console screen, Mini Program page, API endpoint and media file, and my own test on a real phone before a release goes to WeChat review.
-- **Guardrails before speed.** Hash-verified deploys that refuse stale code and roll back on their own; production, payment and credential changes wait for my approval.
+- **I own the what and the why.** The owner's goals become written specs and acceptance checks; an AGENTS.md, written project rules, a prompt template and persistent agent memory give every session the same context.
+- **Verify, don't trust.** 980+ automated tests, scripted audits of every console screen, Mini Program page, API endpoint and media file, and my own test on a real phone before a release goes to WeChat review.
+- **Guardrails before speed.** Production, payment, credential and data changes wait for my approval; deploys are hash-verified, refuse stale code and restore the backup if a check fails.
 
 This profile and [how1ewang.github.io](https://how1ewang.github.io/) were built the same way.
 
@@ -35,10 +35,21 @@ This profile and [how1ewang.github.io](https://how1ewang.github.io/) were built 
 A biotech company sells health products through a dealer network and directly to consumers on WeChat. It ran on disconnected tools: no single view of members, dealers, orders or commissions, and every marketing change needed outside help.
 
 - **Discovery & scope** — mapped how members, dealers, orders and money actually moved, then shaped that into 17 product areas with a phased plan: storefront first, loyalty and dealer tools next, content and training after.
-- **Implementation & integration** — a WeChat Mini Program storefront (60 screens), a staff console (100+ screens), the platform behind them, and a stand-alone registration tool; 11 partner systems integrated for payments, sign-in, ERP fulfilment, cloud media and notifications — including request signing where no SDK existed.
+- **Implementation & integration** — a WeChat Mini Program storefront (58 screens), a staff console (39 pages), the platform behind them, and a stand-alone registration tool; 11 partner systems integrated for payments, sign-in, ERP fulfilment, cloud media and notifications — including request signing where no SDK existed.
 - **Go-live** — WeChat platform compliance, entity-change filing, food-seller registration paperwork, domain and HTTPS, a launch-readiness checklist, a zero-downtime data migration.
-- **Training & support** — an illustrated operations guide so staff run day-to-day changes without a developer; four role-based staff manuals; structured feedback rounds turned into 67 releases; on call when something broke.
+- **Training & support** — an illustrated operations guide so staff run day-to-day changes without a developer; four role-based staff manuals; structured feedback rounds turned into 69 app versions; on call when something broke.
 - **Decisions that mattered** — a drag-and-drop page builder so marketing never waits for a developer; commission rules as console settings rather than code; automatic refunds for payments that arrive after cancellation.
+
+### Problems solved in production
+
+Building it was half the job. Each of these was found, fixed and verified with AI agents under my direction.
+
+- **Video was ~82% of the server's traffic** → playback moved to cloud storage on its own domain, behind one switch with a one-line rollback; about 80% of server traffic now bypasses the server.
+- **An 81 MB upload from overseas took three hours, then failed** → the bottleneck was measured first, then uploads were rebuilt to go straight to storage in parallel parts with acceleration; about 21× faster.
+- **Two systems disagreed on who referred whom, the basis of every commission** → each of the 8 mismatches was checked against the history (4 corrected, 4 confirmed) and one record made the source of truth before the first settlement ran.
+- **Referral posters lost their QR code** → found in the production logs, traced to a web-server rule rather than the app, and fixed with no app release.
+- **End-of-life runtime and database, no scheduled backups** → upgraded with under a minute of downtime; daily backups are proven by test restores.
+- **Screens that looked finished but weren't** → AI-built features can look complete and do nothing; an audit of every screen found 26, all fixed or removed, and the audit now traces every saved value to the code that uses it.
 
 The source is private (client code). The full case study, with the decisions and their outcomes, is on [the site →](https://how1ewang.github.io/#work)
 
@@ -71,9 +82,9 @@ Sales staff in 20 countries were collecting customer details on paper. In ten we
 
 ## Technical foundation
 
-**AI:** Claude Code (agentic coding, parallel sessions) · Cursor · spec-driven prompting · reviewing and testing AI output · approval gates for production work
+**AI:** Claude Code (agentic coding, parallel sessions) · Cursor · context engineering (AGENTS.md, rules, persistent memory) · spec-driven prompting · testing and auditing AI output · human-in-the-loop approval gates
 
-**Stack:** Node.js · Express · PostgreSQL · SQLite · REST APIs · OAuth · Webhooks · WeChat Mini Program · HTML / CSS / JavaScript · WeChat Pay v3 · Alipay · AdaPay · Alibaba Cloud (ECS, OSS, SMS, MTS) · Docker · Nginx · DNS / TLS · GitHub Actions · Jest (760+ tests)
+**Stack:** Node.js · Express · PostgreSQL · SQLite · REST APIs · OAuth · Webhooks · WeChat Mini Program · HTML / CSS / JavaScript · WeChat Pay v3 · Alipay · AdaPay · Alibaba Cloud (ECS, OSS, SMS, MTS) · Docker · Nginx · DNS / TLS · GitHub Actions · Jest (980+ tests)
 
 I built all of the above myself, directing AI agents, so I can talk to a customer's engineers as a peer, debug an integration from the logs, and prototype when a slide isn't enough. The engineering deep-dive — architecture, testing, security, annotated code — is at [how1ewang.github.io/engineering](https://how1ewang.github.io/engineering/).
 
